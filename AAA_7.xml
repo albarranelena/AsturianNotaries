@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Corpus%20muestra%20ENC/tei_notdoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Corpus%20muestra%20ENC/tei_notdoc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>La implantación de los notarios públicos del rey en Asturias (1260-1350 ca.)</title>
+                <editor xml:id="EAF">Elena Albarrán Fernández</editor>
+                <funder>Programa Severo Ochoa de ayudas predoctorales para la formación en investigación
+                    y docencia del Principado de Asturias (2016)</funder>
+                <respStmt>
+                    <resp>Edición revisada por</resp>
+                    <persName xml:id="MCP">Miguel Calleja Puerta</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Laboratorio de Documentación Histórica (DocuLab)</authority>
+                <publisher>Universidad de Oviedo</publisher>
+                <idno>NotPubAsturias</idno>
+                <availability status="restricted">
+                    <licence target="https://creativecommons.org/licenses/by-nc-nd/4.0/"><p>Esta obra está bajo una
+                        licencia Creative Commons Reconocimiento – NoComercial – 
+                        SinObraDerivada (by-nc-nd). </p></licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>España</country>
+                        <region>Principado de Asturias</region>
+                        <settlement>Avilés</settlement>
+                        <institution>Archivo del Ayuntamiento de Avilés</institution>
+                        <idno>AAA, pergamino nº 7</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <locus from="1r" to="1r"/> 
+                            <title/>
+                            <docDate/>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="leaf">
+                            <supportDesc material="parch">
+                                <extent>
+                                    <dimensions unit="mm">
+                                        <width>180</width>
+                                        <height>210</height>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                        </objectDesc>
+                        <accMat/>
+                    </physDesc>
+                </msDesc>
+                <listBibl>
+                    <bibl type="edition">
+                        <author>González y Suárez del Otero</author>
+                        <title>“Del Avilés del siglo XIII”, pp. 217-218.</title>
+                    </bibl>
+                    <bibl type="edition">
+                        <author>Benito Ruano</author>
+                        <title>Colección diplomática de Avilés, nº 8, p. 35 (parcial)</title>
+                    </bibl>
+                    <bibl type="edition">
+                        <author>Menéndez Gómez</author>
+                        <title>Documentos orixinales, nº 5, pp. 27-28</title>
+                    </bibl>
+                    <bibl type="edition">
+                        <author>Sanz Fuentes, Álvarez Castrillón, Calleja Puerta</author>
+                        <title>Colección diplomática del concejo de Avilés, nº 16, pp. 89-90</title>
+                    </bibl>
+                    <bibl type="regest">
+                        <author>Benito Ruano</author>
+                        <title>“Catálogo de pergaminos”, nº 7, p. 624</title>
+                    </bibl>
+                    <bibl type="citation">
+                        <author>Lapesa</author>
+                        <title>Asturiano y provenzal, p. 19, n. 13</title>
+                    </bibl>
+                    <bibl type="citation">
+                        <author>Ruiz de la Peña Solar</author>
+                        <title>“Notas para el estudio del municipio”, p. 271</title>
+                    </bibl>
+                    <bibl type="citation">
+                        <author>Argüello Menéndez</author>
+                        <title>Abillés, p. 54; p. 269, n. 511; p. 283, n. 565</title>
+                    </bibl>
+                    <bibl type="citation">
+                        <author>Míguez Mariñas</author>
+                        <title>Espacio y sociedad, p. 208</title>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <abstract>
+                <p>El concejo de Avilés otorga carta de vecindad a Pedro Pérez de
+                    Verdicio y a su mujer Sancha Suárez, moradores en Vega (Gozón) por
+                    un canon anual de 2 maravedís pagaderos por la fiesta de San Martín,
+                    haciéndola extensiva a sus hijos, si la deseasen, con la misma cuantía
+                    si estuviesen casados.</p>
+            </abstract>
+            <creation> 
+                <origDate when="1280-06-21" cert="high" evidence="internal">21 de junio de 1280</origDate>				
+                <origPlace ref="http://www.geonames.org/3129135/aviles.html"
+                    cert="low" evidence="conjecture" resp="#EAF">Avilés</origPlace>
+            </creation>
+            <oficina type="notaria" subtype="regia" where="Aviles">
+                <persName xml:id="JuanPerez" role="notario">Juan Pérez, notario público del rey Avilés</persName>
+                <persName xml:id="RuyGarcia" role="amanuense">Ruy García fuy presente e fiz esta carta</persName>
+            </oficina> 
+            <actio type="avecindamiento"/>
+            <object type="carta"/>                                      
+            <redactio type="S"/>
+            <traditio type="A" subtype="original"/>
+            <particDesc> 
+                <listPerson> 
+                    <person type="concejo" role="O"/>
+                    <person type="particular" role="D" n="2"/>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>Este texto ha sido codificado mediante el uso de dos vocabularios distintos
+                    y complementarios:siguiendo las normas establecidas por la Commission Internationale de
+                    Diplomatique (CID), hemos editado el documento notarial siguiendo las normas de transcripción
+                    publicadas por la misma. En el ámbito electrónico, el vocabulario empleado para hacer comprensible
+                    la cadena de caracteres que conforman el texto es la Text Encoding Initiative (TEI). En base a las
+                    necesidades específicas que plantea el estudio diplomático del documento, hemos añadido algunas
+                    modificaciones al modelo TEI empleado para la codificación, todas ellas justificadas en la
+                    correspondiente documentación.</p>
+            </editorialDecl>          
+        </encodingDesc>
+        <revisionDesc>
+            <change when="2017-06-04" resp="#MCP">Concepción del modelo de codificación</change>
+            <change when="2017-09-04" resp="#EAF">Transcripción del documento y etiquetado parcial del mismo</change>
+            <change when="2018-10-17" resp="#EAF">Modificación del modelo de codificación acorde a las normas de validación TEI</change>
+            <change when="2019-09-08" resp="#EAF">Etiquetado del texto completo</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>			    
+                <seg function="chirographo">ABC</seg>
+            </p>
+            <p>
+                <seg function="invocatio" type="verbal">In nomine Domini, amen.</seg> <seg function="notificatio">Connosçida cosa sea a quantos esta carta uiren</seg> <seg function="intitulatio">cómmo  nos, conçello de Abillés</seg> <seg function="dispositio">recibimos por nuestros vezinos <seg function="inscriptio">a uos, Pedro Périz de Berdiçio, morador en Vega, e a uuestra muller Sancha Suárez</seg>, e otorgámosuos nuestra vezindat commo a vezinos e amigos. E deuédesnos a dar cada anno por fuoro dos marauedís de la moneda de la guerra primera de Granada o de moneda que tanto uala, que nos auedes a pagar cada anno polla fiesta de San Martión en nuestra uilla a saluo. E por isti fuoro uos damos nuestra vezindat e recibimos ela uuestra e per aquí uos escusamos que nons paguedes connusco en nengunas tallas nen pedidos, nen en foros, nen en fossadera nen en nenguna otra cosa que a nos acaesca, saluo se uollo inuiasse el rey pedir a uuestras personas.</seg> <seg function="clausula"><seg type="claSan">E otorgamos de fazer por uos commo por nuestros vezinos, e que aiades nuestra vezindat conplidamientre. E otorgamos a bona fet, sen mal enganno, de uos tener e gardar todo esto commo sobredecho ye en todos uuestros días, e non ir contra ello en nenguna manera. E se uuestros fillos quisieren nuestra vezindat, déuen nos a dar cada anno, con suas mulleres se foren casados, dos marauedís de la dicha moneda cada uno dellos por la fiesta de San Martión en nuestra uilla a saluo, e per aquí seer escusados de non pagar connusco en nengunas cosas segund que sobredicho ye. E nos recibímoslos por nuestros vezinos, e fazer por ellos e conplir assí commo sobredecho ye que a uos, Pero Périz, e a uuestra muller Sancha Suárez, auemos a fazer. Et nos Pero Pérez, e sua muller Sancha Suárez, otorgámosnos por vezinos de uos, conçello ia dicho, en todos nuestros días. E otorgamos e prometemos a bona fet, sen mal enganno, de uos seer bonos vezinos, e leales, e los mellores que nos podiermos. E deuemos aiudar a uos e a uestros vezinos contra todos los omnes del mundo saluo contra el rey. E otorgamos de uos pagar esti fuoro sobredecho per nos e per nuestras bonas commo dicho ye.</seg> <seg type="claCorr">E por que esto sea creúdo, nos concello ia dicho, feziemos seellar esta carta con nuestro seello. Otrossí nos, Pero Périz e sua muller Sancha Suárez, por que esto sea creudo, rogamos a Iohan Périz, notario del rey póblico en Abillés, que mandasse fazer esta carta e possiesse en ella so signo.</seg></seg> <seg function="datatio"> <seg type="cronologica">Fecha esta carta XXI días de iunio, era Mª CCCª XVIIIª.</seg></seg> <seg function="suscriptio" type="testes" n="6">Testemunnes que foron presentes: Alffonsso Peláiz, fillo de don Pele Rodríguiz; Nicolao     Ferrándiz de Sabugo; Fernán Iohánniz, alcalde; Domingo Périz Uallinello; Pero Iohánniz de la Rúa Noua; Martín Gonzáliz, iuyz; e otros omnes</seg>. <seg function="suscriptio" type="notaria"><seg type="amanuense">Yo, Ruy García, fuy presente e fiz esta carta per mandado de Iohan Périz, notario del rey póblico en Abillés.</seg> <seg type="notario">Hyo Iohan Périz, notario público en Abillés, en esta carta que Ruy García fizo por mio mandado pongo mio signo</seg></seg>. <!-->signo notarial</-->
+            </p>
+        </body>
+    </text>
+</TEI>
